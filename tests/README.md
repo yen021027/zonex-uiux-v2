@@ -24,7 +24,7 @@ Results and screenshots are written under `test-results/`. Each test catches fai
 - Service tab selection, roving tabindex, directional/Home/End keys and responsive orientation.
 - Every service-guide option, CTA synchronization, clipboard success, permission-denied and unavailable clipboard fallbacks, selected fallback text, and stale-state clearing.
 - Expanded-menu and desktop homepage axe scans in addition to route-level mobile scans.
-- Keyboard skip link and focus indicators, reduced motion, JavaScript-disabled core links.
+- Keyboard skip link and focus indicators, including an immediate first-Tab assertion that the hero CTA receives focus without a delayed reset to main; reduced motion and JavaScript-disabled core links.
 - A nonexistent URL returning actual HTTP 404 and a recovery link.
 - Full-page desktop/mobile home and mobile service screenshots.
 

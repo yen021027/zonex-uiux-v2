@@ -144,12 +144,12 @@ document.querySelectorAll('a[href*="#"]').forEach(link=>link.addEventListener('c
   if (url.origin !== location.origin || url.pathname !== location.pathname || !url.hash) return;
   const target = document.getElementById(decodeURIComponent(url.hash.slice(1)));
   if (!target) return;
-  requestAnimationFrame(()=>{
-    const temporary = !target.hasAttribute('tabindex');
-    if (temporary) target.setAttribute('tabindex','-1');
-    target.focus({preventScroll:true});
-    if (temporary) target.addEventListener('blur',()=>target.removeAttribute('tabindex'),{once:true});
-  });
+  // Move focus during the activation, never in a later frame that could steal
+  // focus back after a visitor has already pressed Tab again.
+  const temporary = !target.hasAttribute('tabindex');
+  if (temporary) target.setAttribute('tabindex','-1');
+  target.focus({preventScroll:true});
+  if (temporary) target.addEventListener('blur',()=>target.removeAttribute('tabindex'),{once:true});
 }));
 
 if ('IntersectionObserver' in window) {

@@ -118,6 +118,10 @@ async function menu(page) { return page.locator(menuSelector).first(); }
     assert(await page.evaluate(()=>document.activeElement.closest('main') !== null),'Skip link did not move focus into main');
     for(let i=0;i<15;i++) {
       await page.keyboard.press('Tab');
+      if(i===0) {
+        assert.equal(await page.locator(':focus').getAttribute('href'),'#contact','First Tab after skip link must reach hero CTA, not be reset to MAIN');
+        assert(await page.locator('.hero .button.primary:focus').count()===1,'Skip link must preserve natural next focus target');
+      }
       const focus=await page.locator(':focus').evaluate(el=>{const s=getComputedStyle(el); return {visible:el.getBoundingClientRect().width>0, ring:s.outlineStyle!=='none'&&parseFloat(s.outlineWidth)>0, shadow:s.boxShadow!=='none'};});
       assert(focus.visible && (focus.ring||focus.shadow),'Keyboard target lacks visible focus');
     }

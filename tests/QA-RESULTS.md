@@ -1,8 +1,8 @@
 # Local QA result
 
-Tested: 2026-11-12 01:56 UTC. Target: `http://127.0.0.1:4176/zonex-uiux-v2/`.
+Tested: 2026-11-12 02:03 UTC. Target: `http://127.0.0.1:4176/zonex-uiux-v2/`.
 
-**74 of 74 automated checks passed** using `npm test` and this project's installed Playwright/axe dependencies. Build assets tested: `style.cb4aafa9d6.css` and `app.8d70530331.js`.
+**74 of 74 automated checks passed** using `npm test` and this project's installed Playwright/axe dependencies. The full local suite was repeated after the keyboard race fix with all 74 passing again. Final build assets tested: `style.cb4aafa9d6.css` and `app.80b191ab0f.js`.
 
 ## Verified
 
@@ -23,6 +23,8 @@ Full-page artifacts in `test-results/`: `home-desktop.png` (1440 px), `home-mobi
 ## Fixed during QA
 
 The implementation owner corrected the local server's root-path handling, brand accessible-name mismatch, missing preview/contact landmarks, and invalid native element for tabpanel semantics. The initial copyright-symbol detector false positive was corrected in the tests. The final run includes those fixes.
+
+Initial deployed-build QA also revealed a reproducible rapid-keyboard race: the deferred same-page anchor focus callback reset focus to main after the next Tab press. The implementation owner made anchor focus synchronous. The test now asserts that the first immediate Tab after skip-link activation reaches the hero CTA. Fifteen additional rapid skip-plus-two-Tab repetitions pass without inserted delays. Full local menu/anchor/history and other coverage passes with the fix. Final deployed-build revalidation is pending.
 
 ## Limitations
 
