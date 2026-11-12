@@ -1,0 +1,3 @@
+# Design preview: all HTML pages declare noindex.
+User-agent: *
+Allow: /

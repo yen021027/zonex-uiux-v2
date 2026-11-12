@@ -1,0 +1,746 @@
+{
+  "businessSchema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "@id": "https://zonex-transport.com.tw/#business",
+        "name": "宗錸物流公司",
+        "alternateName": "Zonex Transport",
+        "url": "https://zonex-transport.com.tw/",
+        "description": "中部貨運、全省配送與回頭車服務，承接物流倉儲轉運、工廠搬遷、世貿展覽進退場、機械設備與建材運送。",
+        "telephone": "+886-4-26633352",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "西屯路三段90之30巷5號",
+          "addressLocality": "西屯區",
+          "addressRegion": "台中市",
+          "addressCountry": "TW"
+        },
+        "areaServed": {
+          "@type": "Place",
+          "name": "台灣"
+        },
+        "image": "https://zonex-transport.com.tw/assets/hero-1600.35f813fe65.jpg",
+        "contactPoint": [
+          {
+            "@type": "ContactPoint",
+            "telephone": "+886-4-26633352",
+            "contactType": "customer service",
+            "availableLanguage": "zh-Hant"
+          },
+          {
+            "@type": "ContactPoint",
+            "telephone": "+886-919-083-060",
+            "contactType": "customer service",
+            "availableLanguage": "zh-Hant"
+          }
+        ]
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://zonex-transport.com.tw/#website",
+        "name": "宗錸物流公司",
+        "alternateName": [
+          "宗錸物流",
+          "Zonex Transport"
+        ],
+        "url": "https://zonex-transport.com.tw/",
+        "publisher": {
+          "@id": "https://zonex-transport.com.tw/#business"
+        },
+        "inLanguage": "zh-Hant-TW"
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://zonex-transport.com.tw/#webpage",
+        "url": "https://zonex-transport.com.tw/",
+        "name": "宗錸物流公司｜台中貨運、全省配送與回頭車",
+        "description": "宗錸物流公司提供台中貨運與中部叫車洽詢，承接全省配送、回頭車、工廠搬遷、世貿展覽進退場、機械設備及建材運送。箱型鷗翼尾門車配備電動拖板車，依貨物與裝卸條件確認車趟。",
+        "inLanguage": "zh-Hant-TW",
+        "isPartOf": {
+          "@id": "https://zonex-transport.com.tw/#website"
+        },
+        "about": {
+          "@id": "https://zonex-transport.com.tw/#business"
+        }
+      }
+    ]
+  },
+  "map": "<svg class=\"taiwan-map\" viewBox=\"0 0 430 590\" role=\"img\" aria-labelledby=\"taiwan-map-title taiwan-map-desc\">\r\n    <title id=\"taiwan-map-title\">宗錸物流台灣配送示意圖</title><desc id=\"taiwan-map-desc\">以中部為出發點，移動圓點沿示意路線往返台北、新竹、嘉義、高雄、花蓮與台東。此圖並非即時車輛位置。</desc>\r\n    <defs><pattern id=\"map-grid\" width=\"32\" height=\"32\" patternUnits=\"userSpaceOnUse\"><path d=\"M32 0H0V32\" fill=\"none\" stroke=\"#c7d4db\" stroke-width=\".6\"/></pattern></defs>\r\n    <rect width=\"430\" height=\"590\" fill=\"url(#map-grid)\" opacity=\".45\"/>\r\n    <path class=\"taiwan-land\" d=\"M259.2 465.3 L250.6 483.2 L243.6 502.2 L240.8 520.1 L241 538.5 L239 555.2 L235.6 571.7 L222 566.9 L214.6 555.1 L212.9 535.8 L203.1 512.4 L199.4 505.7 L185.2 492.6 L172.3 486.1 L162.3 476.4 L163.6 477.2 L156.2 464.2 L150.6 450.4 L139 411 L135 401.5 L129.7 392.9 L128.1 384.3 L130 374.8 L135 360.5 L138 346.1 L135.6 326.6 L136.5 307.3 L140.3 298.7 L206.2 181 L224 155.9 L235 143.6 L244.2 129.8 L253 112.2 L263.7 96.2 L271.4 91.2 L309.2 76.8 L320.9 63.1 L330.4 58.8 L341.1 59.1 L348 65.6 L354.2 73.4 L360.7 77.6 L377.4 85.2 L384.7 92.6 L388.1 105.2 L377.9 117.2 L372.8 128 L371.9 140 L373.7 156.2 L373.9 172.4 L361.2 210.6 L347.5 234.3 L343.8 246.1 L339.7 275.5 L331.7 305 L324.8 342.3 L313.6 380.8 L307.3 396.9 L299.4 412.3 L280.6 441.4 L259.2 465.3Z\"/>\r\n    <g aria-hidden=\"true\"><path id=\"delivery-route-0\" class=\"delivery-route\" d=\"M212.3 231.6 L225.8 177.7 L253.5 129.7 L300 101.2 L337.2 96.2 L353.2 162.4 L333.6 254.2\"/><path id=\"delivery-route-1\" class=\"delivery-route\" d=\"M212.3 231.6 L195 284.8 L180.9 333.7 L160 399.5 L169.8 457.7 L195 476 L216 499 L251 465.3 L269.2 437.8\"/><circle class=\"delivery-dot\" data-route=\"delivery-route-0\" cx=\"212.3\" cy=\"231.6\" r=\"4.5\"/><circle class=\"delivery-dot\" data-route=\"delivery-route-1\" cx=\"212.3\" cy=\"231.6\" r=\"4.5\"/><g class=\"map-city\"><circle cx=\"337.2\" cy=\"96.2\" r=\"4\"/><text x=\"352.2\" y=\"103.2\" text-anchor=\"start\">台北</text></g><g class=\"map-city\"><circle cx=\"253.5\" cy=\"129.7\" r=\"4\"/><text x=\"238.5\" y=\"136.7\" text-anchor=\"end\">新竹</text></g><g class=\"map-city\"><circle cx=\"180.9\" cy=\"333.7\" r=\"4\"/><text x=\"165.9\" y=\"340.7\" text-anchor=\"end\">嘉義</text></g><g class=\"map-city\"><circle cx=\"169.8\" cy=\"457.7\" r=\"4\"/><text x=\"154.8\" y=\"464.7\" text-anchor=\"end\">高雄</text></g><g class=\"map-city\"><circle cx=\"333.6\" cy=\"254.2\" r=\"4\"/><text x=\"348.6\" y=\"261.2\" text-anchor=\"start\">花蓮</text></g><g class=\"map-city\"><circle cx=\"269.2\" cy=\"437.8\" r=\"4\"/><text x=\"284.2\" y=\"444.8\" text-anchor=\"start\">台東</text></g><circle class=\"map-hub-halo\" cx=\"212.3\" cy=\"231.6\" r=\"16\"/><circle class=\"map-hub\" cx=\"212.3\" cy=\"231.6\" r=\"7\"/><rect class=\"map-hub-label\" x=\"94.30000000000001\" y=\"210.6\" width=\"97\" height=\"42\" rx=\"3\"/><text class=\"map-hub-text\" x=\"142.8\" y=\"238.6\" text-anchor=\"middle\">中部</text></g>\r\n  </svg>",
+  "pages": {
+    "building-materials": {
+      "title": "建材運送｜台中板材、木材與棧板建材配送｜宗錸物流",
+      "description": "宗錸物流承接板材、木材與棧板建材運送，配送至建材行、工廠與工地。台中與中部可洽詢叫車，提供包裝尺寸重量、工地進出及卸貨條件，確認全省配送與車趟安排。",
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@context": "https://schema.org",
+            "@type": "LocalBusiness",
+            "@id": "https://zonex-transport.com.tw/#business",
+            "name": "宗錸物流公司",
+            "alternateName": "Zonex Transport",
+            "url": "https://zonex-transport.com.tw/",
+            "description": "中部貨運、全省配送與回頭車服務，承接物流倉儲轉運、工廠搬遷、世貿展覽進退場、機械設備與建材運送。",
+            "telephone": "+886-4-26633352",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "西屯路三段90之30巷5號",
+              "addressLocality": "西屯區",
+              "addressRegion": "台中市",
+              "addressCountry": "TW"
+            },
+            "areaServed": {
+              "@type": "Place",
+              "name": "台灣"
+            },
+            "image": "https://zonex-transport.com.tw/assets/hero-1600.35f813fe65.jpg",
+            "contactPoint": [
+              {
+                "@type": "ContactPoint",
+                "telephone": "+886-4-26633352",
+                "contactType": "customer service",
+                "availableLanguage": "zh-Hant"
+              },
+              {
+                "@type": "ContactPoint",
+                "telephone": "+886-919-083-060",
+                "contactType": "customer service",
+                "availableLanguage": "zh-Hant"
+              }
+            ]
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://zonex-transport.com.tw/services/building-materials/#webpage",
+            "url": "https://zonex-transport.com.tw/services/building-materials/",
+            "name": "建材運送｜台中板材、木材與棧板建材配送｜宗錸物流",
+            "description": "宗錸物流承接板材、木材與棧板建材運送，配送至建材行、工廠與工地。台中與中部可洽詢叫車，提供包裝尺寸重量、工地進出及卸貨條件，確認全省配送與車趟安排。",
+            "inLanguage": "zh-Hant-TW",
+            "isPartOf": {
+              "@id": "https://zonex-transport.com.tw/#website"
+            },
+            "mainEntity": {
+              "@id": "https://zonex-transport.com.tw/services/building-materials/#service"
+            },
+            "breadcrumb": {
+              "@id": "https://zonex-transport.com.tw/services/building-materials/#breadcrumb"
+            }
+          },
+          {
+            "@type": "Service",
+            "@id": "https://zonex-transport.com.tw/services/building-materials/#service",
+            "name": "建材運送",
+            "serviceType": "建材運送",
+            "url": "https://zonex-transport.com.tw/services/building-materials/",
+            "description": "從建材行到工廠、工地，先把貨物與卸貨現場說清楚。宗錸承接板材、木材與棧板建材配送，依包裝尺寸、重量、目的地及現場條件確認運送；台中與中部皆可洽詢叫車。",
+            "provider": {
+              "@id": "https://zonex-transport.com.tw/#business"
+            },
+            "areaServed": {
+              "@type": "Place",
+              "name": "台灣"
+            }
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://zonex-transport.com.tw/services/building-materials/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "首頁",
+                "item": "https://zonex-transport.com.tw/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "建材運送",
+                "item": "https://zonex-transport.com.tw/services/building-materials/"
+              }
+            ]
+          }
+        ]
+      },
+      "main": "\n <nav class=\"breadcrumb\" aria-label=\"頁面路徑\"><ol><li><a href=\"/\">首頁</a></li><li aria-current=\"page\">建材運送</li></ol></nav>\n <section class=\"detail-hero\" aria-labelledby=\"detail-title\"><div class=\"detail-hero-copy\"><p class=\"eyebrow\">BUILDING MATERIALS</p><h1 id=\"detail-title\">建材運送</h1><p class=\"detail-lead\">從建材行到工廠、工地，先把貨物與卸貨現場說清楚。宗錸承接板材、木材與棧板建材配送，依包裝尺寸、重量、目的地及現場條件確認運送；台中與中部皆可洽詢叫車。</p><div class=\"detail-actions\"><a class=\"button primary\" href=\"tel:0919083060\">電話洽詢運送</a><a class=\"underlined-link\" href=\"#preparation\">查看準備資料</a></div><p class=\"detail-location\">台中・彰化・南投叫車洽詢 / 全省配送</p></div><figure class=\"detail-hero-photo\"><img class=\"detail-hero-image\" src=\"/assets/materials-960.fdbfb03dd9.jpg\" srcset=\"/assets/materials-480.6d5dc5294a.jpg 480w, /assets/materials-720.dd0ba3977d.jpg 720w, /assets/materials-960.fdbfb03dd9.jpg 960w\" sizes=\"(max-width: 760px) calc(100vw - 44px), 45vw\" width=\"960\" height=\"720\" fetchpriority=\"high\" decoding=\"async\" alt=\"箱型鷗翼尾門車配送包裝建材\"><figcaption>箱型鷗翼尾門車配送包裝建材<span>宗錸運送實景</span></figcaption></figure></section>\n <section class=\"detail-intro\" aria-labelledby=\"intro-title\"><div><p class=\"eyebrow\">01 / PLAN THE JOURNEY</p><h2 id=\"intro-title\">建材配送，貨物與工地條件都要準備。</h2></div><div class=\"detail-intro-copy\"><p>板材與木材請提供包裝完成後的長、寬、高與重量，說明是否有棧板、突出或易受損部位。不同規格或送達地點分開列出，方便確認裝載及交接。</p><p>工地收貨前，需確認車輛進出、停靠位置與卸貨方式。若有門禁、限高、道路狹窄、卸貨預約或收貨窗口，請事先說明；尾門及電動拖板車是否適用，仍依貨物與地面條件確認。</p></div></section>\n <section class=\"detail-scope\" aria-labelledby=\"scope-title\"><div class=\"section-heading\"><div><p class=\"eyebrow light\">02 / SERVICE SCOPE</p><h2 id=\"scope-title\">建材運送，<br>先確認這些需求。</h2></div><p>依貨物與現場條件，<br>確認每一趟運送安排。</p></div><div class=\"detail-scope-grid\"><article><span class=\"detail-number\">01 / SERVICE</span><h3>板材與木材配送</h3><p>提供包裝後的長度、寬度、件數及重量，標示需要保護的邊角與承運注意事項。</p></article><article><span class=\"detail-number\">02 / SERVICE</span><h3>棧板建材運送</h3><p>列出棧板數、各板尺寸與重量；棧板之外的散件另行整理，說明包裝與是否可堆疊。</p></article><article><span class=\"detail-number\">03 / SERVICE</span><h3>建材行、工廠與工地交貨</h3><p>提供每個交貨點的地址與窗口。若需要多點配送，分別列出貨物、收貨時段與卸貨設備。</p></article></div><a class=\"underlined-link\" href=\"/#equipment\">認識箱型鷗翼尾門車與電動拖板車</a></section>\n <section id=\"preparation\" class=\"detail-preparation\" aria-labelledby=\"prep-title\"><div><p class=\"eyebrow\">03 / BEFORE YOU CALL</p><h2 id=\"prep-title\">洽詢建材運送，<br>準備這三組資料。</h2><p>資料完整，方便確認承運條件與報價。</p></div><ol><li><span class=\"prep-number\">01</span><div><h3>建材規格與包裝</h3><p>品項、件數、棧板數、包裝尺寸與重量，附上完整貨物照片及需特別保護的部位。</p></div></li><li><span class=\"prep-number\">02</span><div><h3>工地進出與卸貨方式</h3><p>上下貨地址、停靠位置、地面、限高及進出限制，並說明現場可用的裝卸設備。</p></div></li><li><span class=\"prep-number\">03</span><div><h3>送達時段與交接資料</h3><p>希望日期、各點收貨時間、聯絡窗口與交貨順序；如需預約進場，請事先說明。</p></div></li></ol></section>\n <section class=\"detail-faq\" aria-labelledby=\"faq-title\"><div><p class=\"eyebrow\">04 / QUESTIONS</p><h2 id=\"faq-title\">洽詢前，<br>你可能想了解。</h2></div><div class=\"faq-list\"><details><summary><span>長板材或木材可以運送嗎？</span><span class=\"faq-action\"><span class=\"when-closed\">查看說明</span><span class=\"when-open\">收合說明</span></span></summary><p>請先提供完整包裝尺寸、重量與照片。能否承運依車輛裝載與兩端裝卸條件確認，不只依品項名稱判斷。</p></details><details><summary><span>工地沒有堆高機，可以使用尾門嗎？</span><span class=\"faq-action\"><span class=\"when-closed\">查看說明</span><span class=\"when-open\">收合說明</span></span></summary><p>請說明貨物包裝、重量、棧板與現場地面。尾門和電動拖板車是否適用，需事先確認。</p></details><details><summary><span>建材可以分送不同地點嗎？</span><span class=\"faq-action\"><span class=\"when-closed\">查看說明</span><span class=\"when-open\">收合說明</span></span></summary><p>可先提供各點地址、貨物清單與收貨時段洽詢，實際路線、順序及車趟依需求確認。</p></details></div></section>\n <section id=\"contact\" class=\"detail-contact\" aria-labelledby=\"contact-title\"><div><p class=\"eyebrow\">LET’S GET MOVING</p><h2 id=\"contact-title\">把這一趟，<br>交給宗錸聊聊。</h2><p>把貨物照片、起訖地址與日期準備好，聯絡宗錸確認建材運送安排。</p><a class=\"button primary\" href=\"https://line.me/ti/p/swxaMQm3yw\" target=\"_blank\" rel=\"noopener\">LINE 洽詢運送</a></div><div class=\"contact-details\"><div class=\"contact-row\"><span>電話洽詢</span><a href=\"tel:0426633352\">市內電話 <strong>04-2663-3352</strong></a><a href=\"tel:0919083060\">手機電話 <strong>0919-083-060</strong></a></div><div class=\"contact-row\"><span>公司地址</span><a class=\"address\" href=\"https://www.google.com/maps/search/?api=1&amp;query=台中市西屯區西屯路三段90之30巷5號\" target=\"_blank\" rel=\"noopener\">台中市西屯區<br>西屯路三段90之30巷5號</a></div></div></section>\n <nav class=\"detail-related\" aria-label=\"延伸服務\"><span>延伸了解</span><a href=\"/services/nationwide-delivery/\">全省配送</a><a href=\"/services/return-truck/\">台中回頭車</a><a href=\"/services/warehouse-transfer/\">倉儲轉運</a><a href=\"/#services\">全部運送服務</a></nav>\n "
+    },
+    "exhibition-logistics": {
+      "title": "世貿展覽進退場運送｜展品配送與撤展載回｜宗錸物流",
+      "description": "宗錸物流承接世貿展覽進退場、展品與機械設備運送，依進退場日期、指定時段及裝卸條件確認車趟。提供展覽名稱、場館、貨物尺寸重量與起訖地址，可洽詢中部出發配送及展後載回工廠、倉庫或指定地點。",
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@context": "https://schema.org",
+            "@type": "LocalBusiness",
+            "@id": "https://zonex-transport.com.tw/#business",
+            "name": "宗錸物流公司",
+            "alternateName": "Zonex Transport",
+            "url": "https://zonex-transport.com.tw/",
+            "description": "中部貨運、全省配送與回頭車服務，承接物流倉儲轉運、工廠搬遷、世貿展覽進退場、機械設備與建材運送。",
+            "telephone": "+886-4-26633352",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "西屯路三段90之30巷5號",
+              "addressLocality": "西屯區",
+              "addressRegion": "台中市",
+              "addressCountry": "TW"
+            },
+            "areaServed": {
+              "@type": "Place",
+              "name": "台灣"
+            },
+            "image": "https://zonex-transport.com.tw/assets/hero-1600.35f813fe65.jpg",
+            "contactPoint": [
+              {
+                "@type": "ContactPoint",
+                "telephone": "+886-4-26633352",
+                "contactType": "customer service",
+                "availableLanguage": "zh-Hant"
+              },
+              {
+                "@type": "ContactPoint",
+                "telephone": "+886-919-083-060",
+                "contactType": "customer service",
+                "availableLanguage": "zh-Hant"
+              }
+            ]
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://zonex-transport.com.tw/services/exhibition-logistics/#webpage",
+            "url": "https://zonex-transport.com.tw/services/exhibition-logistics/",
+            "name": "世貿展覽進退場運送｜展品配送與撤展載回｜宗錸物流",
+            "description": "宗錸物流承接世貿展覽進退場、展品與機械設備運送，依進退場日期、指定時段及裝卸條件確認車趟。提供展覽名稱、場館、貨物尺寸重量與起訖地址，可洽詢中部出發配送及展後載回工廠、倉庫或指定地點。",
+            "inLanguage": "zh-Hant-TW",
+            "isPartOf": {
+              "@id": "https://zonex-transport.com.tw/#website"
+            },
+            "mainEntity": {
+              "@id": "https://zonex-transport.com.tw/services/exhibition-logistics/#service"
+            },
+            "breadcrumb": {
+              "@id": "https://zonex-transport.com.tw/services/exhibition-logistics/#breadcrumb"
+            }
+          },
+          {
+            "@type": "Service",
+            "@id": "https://zonex-transport.com.tw/services/exhibition-logistics/#service",
+            "name": "世貿展覽進退場運送",
+            "serviceType": "世貿展覽進退場運送",
+            "url": "https://zonex-transport.com.tw/services/exhibition-logistics/",
+            "description": "展前進場與展後退場，是兩段需要分別確認的運送。宗錸承接展品、機械設備與展覽器材配送，依場館指定時段、貨物尺寸和裝卸條件洽談車趟，並可洽詢展後載回工廠、倉庫或指定地點。",
+            "provider": {
+              "@id": "https://zonex-transport.com.tw/#business"
+            },
+            "areaServed": {
+              "@type": "Place",
+              "name": "台灣"
+            }
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://zonex-transport.com.tw/services/exhibition-logistics/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "首頁",
+                "item": "https://zonex-transport.com.tw/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "世貿展覽進退場運送",
+                "item": "https://zonex-transport.com.tw/services/exhibition-logistics/"
+              }
+            ]
+          }
+        ]
+      },
+      "main": "\r\n  <nav class=\"breadcrumb\" aria-label=\"頁面路徑\"><ol><li><a href=\"/\">首頁</a></li><li aria-current=\"page\">世貿展覽進退場運送</li></ol></nav>\r\n  <section class=\"detail-hero\" aria-labelledby=\"detail-title\">\r\n    <div class=\"detail-hero-copy\"><p class=\"eyebrow\">EXHIBITION LOGISTICS</p><h1 id=\"detail-title\">世貿展覽進退場運送</h1><p class=\"detail-lead\">展前進場與展後退場，是兩段需要分別確認的運送。宗錸承接展品、機械設備與展覽器材配送，依場館指定時段、貨物尺寸和裝卸條件洽談車趟，並可洽詢展後載回工廠、倉庫或指定地點。</p><div class=\"detail-actions\"><a class=\"button primary\" href=\"tel:0919083060\">電話洽詢運送</a><a class=\"underlined-link\" href=\"#preparation\">查看準備資料</a></div><p class=\"detail-location\">中部叫車洽詢 / 全省配送</p></div>\r\n    <figure class=\"detail-hero-photo\"><img class=\"detail-hero-image\" src=\"/assets/exhibition1-960.d11717f1c2.jpg\" srcset=\"/assets/exhibition1-480.67861d85c9.jpg 480w, /assets/exhibition1-720.14c836071a.jpg 720w, /assets/exhibition1-960.d11717f1c2.jpg 960w\" sizes=\"(max-width: 760px) calc(100vw - 44px), 45vw\" width=\"960\" height=\"540\" fetchpriority=\"high\" decoding=\"async\" alt=\"展覽現場棧板貨物與宗錸貨車運送實況\"><figcaption>展覽現場進退場運送實景<span>宗錸運送實景</span></figcaption></figure>\r\n  </section>\r\n  <section class=\"detail-intro\" aria-labelledby=\"intro-title\"><div><p class=\"eyebrow\">01 / PLAN THE JOURNEY</p><h2 id=\"intro-title\">把展期資訊，整理成每一趟運送資料。</h2></div><div class=\"detail-intro-copy\"><p>進場資料請列出展覽名稱、場館、指定日期與時段，以及取貨地址、展品件數和包裝方式。機械設備與箱裝展品若一起運送，請分項提供尺寸、重量及照片，方便確認裝載與上下貨條件。</p><p>退場資料請另列撤展時段及載回地址，並確認貨物當時的包裝方式與收貨窗口。展後目的地若與出發地不同，或只有部分展品需要載回，請在洽詢時分開說明，避免進退場資訊混用。</p></div></section>\r\n  <section class=\"detail-scope\" aria-labelledby=\"scope-title\"><div class=\"section-heading\"><div><p class=\"eyebrow light\">02 / SERVICE SCOPE</p><h2 id=\"scope-title\">每一批貨，<br>分別確認安排。</h2></div><p>從貨物到交接地點，<br>先釐清每一趟的運送需求。</p></div><div class=\"detail-scope-grid\"><article><span class=\"detail-number\">01 / SERVICE</span><h3>展前進場配送</h3><p>從工廠、倉庫或取貨地點運送展品與器材，依指定進場時段、貨物條件及現場裝卸資訊確認安排。</p></article><article><span class=\"detail-number\">02 / SERVICE</span><h3>展品與機械設備運送</h3><p>列出各項展品與設備的尺寸、重量及包裝方式，附上照片；箱裝、木箱或棧板貨物請分別註明。</p></article><article><span class=\"detail-number\">03 / SERVICE</span><h3>展後退場載回</h3><p>提供退場日期、時段、取貨窗口與載回目的地，洽詢展品和設備返回工廠、倉庫或指定地點的車趟。</p></article></div><a class=\"underlined-link\" href=\"/#equipment\">認識箱型鷗翼尾門車與電動拖板車</a></section>\r\n  <section id=\"preparation\" class=\"detail-preparation\" aria-labelledby=\"prep-title\"><div><p class=\"eyebrow\">03 / BEFORE YOU CALL</p><h2 id=\"prep-title\">洽詢展覽進退場，準備這三組資料。</h2><p>資料完整一點，<br>運送需求就更清楚一點。</p></div><ol><li><span class=\"prep-number\">01</span><div><h3>展覽與場館資訊</h3><p>展覽名稱、場館、進場與退場日期及指定時段；如有場館提供的車輛進出或裝卸說明，請一起提供。</p></div></li><li><span class=\"prep-number\">02</span><div><h3>展品清單與照片</h3><p>各項展品的品項、件數、尺寸、重量及包裝方式，並註明哪些貨物需退場載回，方便核對。</p></div></li><li><span class=\"prep-number\">03</span><div><h3>起訖地址與交接窗口</h3><p>去程取貨地址、場館上下貨位置及回程收貨地址，分別列出聯絡窗口與現場裝卸條件。</p></div></li></ol></section>\r\n  <section class=\"detail-faq\" aria-labelledby=\"faq-title\"><div><p class=\"eyebrow\">04 / QUESTIONS</p><h2 id=\"faq-title\">洽詢前，<br>你可能想了解。</h2></div><div class=\"faq-list\"><details><summary><span>進場與退場需要一起提供資料嗎？</span><span class=\"faq-action\"><span class=\"when-closed\">查看說明</span><span class=\"when-open\">收合說明</span></span></summary><p>兩段都需要運送時，請分別提供日期、指定時段、起訖地址與貨物清單。若只需要其中一段，也請說明需求，再與宗錸確認可安排的路線及車趟。</p></details><details><summary><span>可以從中部運送到展場，再載回不同地址嗎？</span><span class=\"faq-action\"><span class=\"when-closed\">查看說明</span><span class=\"when-open\">收合說明</span></span></summary><p>台中、彰化、南投皆可洽詢叫車，提供全省配送服務。若展後載回地址不同，請將去程及回程地址分開列出，依路線、日期與裝卸條件確認安排。</p></details><details><summary><span>如何預約指定時段的展覽運送？</span><span class=\"faq-action\"><span class=\"when-closed\">查看說明</span><span class=\"when-open\">收合說明</span></span></summary><p>以電話或 LINE 提供展覽名稱、場館、進退場時段、貨物照片及尺寸重量，再確認承運與車趟安排。場館時段或展品數量調整時，也請更新資料。</p></details></div></section>\r\n  <section id=\"contact\" class=\"detail-contact\" aria-labelledby=\"contact-title\"><div><p class=\"eyebrow\">LET’S GET MOVING</p><h2 id=\"contact-title\">把這一趟，<br>交給宗錸聊聊。</h2><p>備妥展覽名稱、進退場時段與展品資料，聯絡宗錸確認每一趟展覽運送。</p><a class=\"button primary\" href=\"https://line.me/ti/p/swxaMQm3yw\" target=\"_blank\" rel=\"noopener\">LINE 洽詢運送</a></div><div class=\"contact-details\"><div class=\"contact-row\"><span>電話洽詢</span><a href=\"tel:0426633352\">市內電話 <strong>04-2663-3352</strong></a><a href=\"tel:0919083060\">手機電話 <strong>0919-083-060</strong></a></div><div class=\"contact-row\"><span>公司地址</span><a class=\"address\" href=\"https://www.google.com/maps/search/?api=1&amp;query=台中市西屯區西屯路三段90之30巷5號\" target=\"_blank\" rel=\"noopener\">台中市西屯區<br>西屯路三段90之30巷5號</a></div></div></section>\r\n  <nav class=\"detail-related\" aria-label=\"延伸服務\"><span>延伸了解</span><a href=\"/services/factory-relocation/\">工廠搬遷運送</a><a href=\"/services/machinery-transport/\">機械設備運送</a><a href=\"/services/nationwide-delivery/\">全省配送</a><a href=\"/#services\">全部運送服務</a></nav>\r\n"
+    },
+    "factory-relocation": {
+      "title": "工廠搬遷運送｜中部叫車與全省配送｜宗錸物流",
+      "description": "宗錸物流承接工廠設備、物料與貨品搬遷運送，台中、彰化、南投皆可洽詢，全省配送依路線與車趟確認。整理待搬清單、尺寸重量、兩端地址及裝卸條件，了解箱型鷗翼尾門車與電動拖板車的運送安排。",
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@context": "https://schema.org",
+            "@type": "LocalBusiness",
+            "@id": "https://zonex-transport.com.tw/#business",
+            "name": "宗錸物流公司",
+            "alternateName": "Zonex Transport",
+            "url": "https://zonex-transport.com.tw/",
+            "description": "中部貨運、全省配送與回頭車服務，承接物流倉儲轉運、工廠搬遷、世貿展覽進退場、機械設備與建材運送。",
+            "telephone": "+886-4-26633352",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "西屯路三段90之30巷5號",
+              "addressLocality": "西屯區",
+              "addressRegion": "台中市",
+              "addressCountry": "TW"
+            },
+            "areaServed": {
+              "@type": "Place",
+              "name": "台灣"
+            },
+            "image": "https://zonex-transport.com.tw/assets/hero-1600.35f813fe65.jpg",
+            "contactPoint": [
+              {
+                "@type": "ContactPoint",
+                "telephone": "+886-4-26633352",
+                "contactType": "customer service",
+                "availableLanguage": "zh-Hant"
+              },
+              {
+                "@type": "ContactPoint",
+                "telephone": "+886-919-083-060",
+                "contactType": "customer service",
+                "availableLanguage": "zh-Hant"
+              }
+            ]
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://zonex-transport.com.tw/services/factory-relocation/#webpage",
+            "url": "https://zonex-transport.com.tw/services/factory-relocation/",
+            "name": "工廠搬遷運送｜中部叫車與全省配送｜宗錸物流",
+            "description": "宗錸物流承接工廠設備、物料與貨品搬遷運送，台中、彰化、南投皆可洽詢，全省配送依路線與車趟確認。整理待搬清單、尺寸重量、兩端地址及裝卸條件，了解箱型鷗翼尾門車與電動拖板車的運送安排。",
+            "inLanguage": "zh-Hant-TW",
+            "isPartOf": {
+              "@id": "https://zonex-transport.com.tw/#website"
+            },
+            "mainEntity": {
+              "@id": "https://zonex-transport.com.tw/services/factory-relocation/#service"
+            },
+            "breadcrumb": {
+              "@id": "https://zonex-transport.com.tw/services/factory-relocation/#breadcrumb"
+            }
+          },
+          {
+            "@type": "Service",
+            "@id": "https://zonex-transport.com.tw/services/factory-relocation/#service",
+            "name": "工廠搬遷運送",
+            "serviceType": "工廠搬遷運送",
+            "url": "https://zonex-transport.com.tw/services/factory-relocation/",
+            "description": "從設備到物料，工廠搬遷需要先釐清每批貨物的條件。宗錸承接廠內設備、物料與貨品的搬遷運送；提供待搬清單、搬出與搬入地址，以及可作業時段，方便一起確認車輛、裝卸與車趟安排。",
+            "provider": {
+              "@id": "https://zonex-transport.com.tw/#business"
+            },
+            "areaServed": {
+              "@type": "Place",
+              "name": "台灣"
+            }
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://zonex-transport.com.tw/services/factory-relocation/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "首頁",
+                "item": "https://zonex-transport.com.tw/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "工廠搬遷運送",
+                "item": "https://zonex-transport.com.tw/services/factory-relocation/"
+              }
+            ]
+          }
+        ]
+      },
+      "main": "\r\n  <nav class=\"breadcrumb\" aria-label=\"頁面路徑\"><ol><li><a href=\"/\">首頁</a></li><li aria-current=\"page\">工廠搬遷運送</li></ol></nav>\r\n  <section class=\"detail-hero\" aria-labelledby=\"detail-title\">\r\n    <div class=\"detail-hero-copy\"><p class=\"eyebrow\">FACTORY RELOCATION</p><h1 id=\"detail-title\">工廠搬遷運送</h1><p class=\"detail-lead\">從設備到物料，工廠搬遷需要先釐清每批貨物的條件。宗錸承接廠內設備、物料與貨品的搬遷運送；提供待搬清單、搬出與搬入地址，以及可作業時段，方便一起確認車輛、裝卸與車趟安排。</p><div class=\"detail-actions\"><a class=\"button primary\" href=\"tel:0919083060\">電話洽詢運送</a><a class=\"underlined-link\" href=\"#preparation\">查看準備資料</a></div><p class=\"detail-location\">中部叫車洽詢 / 全省配送</p></div>\r\n    <figure class=\"detail-hero-photo\"><img class=\"detail-hero-image\" src=\"/assets/factory-960.e8fc91fb02.jpg\" srcset=\"/assets/factory-480.37a716e134.jpg 480w, /assets/factory-720.cd8a5c0de2.jpg 720w, /assets/factory-960.e8fc91fb02.jpg 960w\" sizes=\"(max-width: 760px) calc(100vw - 44px), 45vw\" width=\"960\" height=\"720\" fetchpriority=\"high\" decoding=\"async\" alt=\"工廠物料與設備裝載於宗錸鷗翼貨車\"><figcaption>工廠物料與設備運送實景<span>宗錸運送實景</span></figcaption></figure>\r\n  </section>\r\n  <section class=\"detail-intro\" aria-labelledby=\"intro-title\"><div><p class=\"eyebrow\">01 / PLAN THE JOURNEY</p><h2 id=\"intro-title\">搬遷前，先把貨物與現場條件說清楚。</h2></div><div class=\"detail-intro-copy\"><p>搬遷清單可按設備、原料、半成品與成品分開整理，列出每件或每批的數量、尺寸、重量及包裝方式。若貨物體積差異大，分項提供照片，比只說明整廠搬遷更容易釐清運送需求。</p><p>台中、彰化、南投皆可洽詢叫車，並可詢問全省配送。搬出端與搬入端的樓層、通道及裝卸位置都需要確認；如希望配合回頭車，請另說明日期彈性，實際安排依路線與車趟確認。</p></div></section>\r\n  <section class=\"detail-scope\" aria-labelledby=\"scope-title\"><div class=\"section-heading\"><div><p class=\"eyebrow light\">02 / SERVICE SCOPE</p><h2 id=\"scope-title\">每一批貨，<br>分別確認安排。</h2></div><p>從貨物到交接地點，<br>先釐清每一趟的運送需求。</p></div><div class=\"detail-scope-grid\"><article><span class=\"detail-number\">01 / SERVICE</span><h3>廠內設備運送</h3><p>提供設備名稱、外部尺寸、重量與包裝照片。若有突出部位或棧板固定方式，也請在洽詢時註明。</p></article><article><span class=\"detail-number\">02 / SERVICE</span><h3>原料與物料搬遷</h3><p>按品項列出箱數或棧板數，說明包裝及總重量；散件與棧板貨物分開列出，方便確認裝載需求。</p></article><article><span class=\"detail-number\">03 / SERVICE</span><h3>成品與庫存轉移</h3><p>整理每批貨品的數量、收貨地點及聯絡窗口。不同目的地的貨物請分別標示，避免交接資訊混在一起。</p></article></div><a class=\"underlined-link\" href=\"/#equipment\">認識箱型鷗翼尾門車與電動拖板車</a></section>\r\n  <section id=\"preparation\" class=\"detail-preparation\" aria-labelledby=\"prep-title\"><div><p class=\"eyebrow\">03 / BEFORE YOU CALL</p><h2 id=\"prep-title\">洽詢工廠搬遷，準備這三組資料。</h2><p>資料完整一點，<br>運送需求就更清楚一點。</p></div><ol><li><span class=\"prep-number\">01</span><div><h3>貨物清單與包裝</h3><p>各件尺寸、重量、數量與包裝方式，附上設備和物料照片；尚未確認的資料請註明，方便補充。</p></div></li><li><span class=\"prep-number\">02</span><div><h3>兩端地址與裝卸現場</h3><p>搬出與搬入地址、樓層、通道和上下貨位置，並提供現場照片及拖板車可使用的條件。</p></div></li><li><span class=\"prep-number\">03</span><div><h3>日期、時段與搬出順序</h3><p>列出希望搬遷日期與兩端可作業時段；若有先後搬出需求，請將順序標在清單上，一併洽詢。</p></div></li></ol></section>\r\n  <section class=\"detail-faq\" aria-labelledby=\"faq-title\"><div><p class=\"eyebrow\">04 / QUESTIONS</p><h2 id=\"faq-title\">洽詢前，<br>你可能想了解。</h2></div><div class=\"faq-list\"><details><summary><span>尾門車與電動拖板車是否適用這批設備？</span><span class=\"faq-action\"><span class=\"when-closed\">查看說明</span><span class=\"when-open\">收合說明</span></span></summary><p>宗錸全車採用箱型鷗翼尾門車，配備電動拖板車。是否適用這批設備，仍需依尺寸、重量、包裝與現場條件確認，請先提供設備及裝卸位置照片。</p></details><details><summary><span>工廠搬遷可以洽詢回頭車嗎？</span><span class=\"faq-action\"><span class=\"when-closed\">查看說明</span><span class=\"when-open\">收合說明</span></span></summary><p>可以提供搬出與搬入地點、貨物資料及可配合日期，洽詢回頭車安排。實際是否能配合，依路線、車趟及裝卸條件確認。</p></details><details><summary><span>如何確認搬遷車趟與日期？</span><span class=\"faq-action\"><span class=\"when-closed\">查看說明</span><span class=\"when-open\">收合說明</span></span></summary><p>先以電話或 LINE 提供待搬清單、兩端地址、現場條件與希望日期。資料確認後，再與宗錸確認承運及車趟安排；若日期或貨物內容變更，請一併告知。</p></details></div></section>\r\n  <section id=\"contact\" class=\"detail-contact\" aria-labelledby=\"contact-title\"><div><p class=\"eyebrow\">LET’S GET MOVING</p><h2 id=\"contact-title\">把這一趟，<br>交給宗錸聊聊。</h2><p>把待搬清單、貨物照片與兩端地址準備好，聯絡宗錸確認工廠搬遷運送安排。</p><a class=\"button primary\" href=\"https://line.me/ti/p/swxaMQm3yw\" target=\"_blank\" rel=\"noopener\">LINE 洽詢運送</a></div><div class=\"contact-details\"><div class=\"contact-row\"><span>電話洽詢</span><a href=\"tel:0426633352\">市內電話 <strong>04-2663-3352</strong></a><a href=\"tel:0919083060\">手機電話 <strong>0919-083-060</strong></a></div><div class=\"contact-row\"><span>公司地址</span><a class=\"address\" href=\"https://www.google.com/maps/search/?api=1&amp;query=台中市西屯區西屯路三段90之30巷5號\" target=\"_blank\" rel=\"noopener\">台中市西屯區<br>西屯路三段90之30巷5號</a></div></div></section>\r\n  <nav class=\"detail-related\" aria-label=\"延伸服務\"><span>延伸了解</span><a href=\"/services/exhibition-logistics/\">世貿展覽進退場運送</a><a href=\"/services/machinery-transport/\">機械設備運送</a><a href=\"/services/nationwide-delivery/\">全省配送</a><a href=\"/#services\">全部運送服務</a></nav>\r\n"
+    },
+    "machinery-transport": {
+      "title": "機械設備運送｜台中叫車與全省配送｜宗錸物流",
+      "description": "宗錸物流承接機械設備、機器與展覽器材運送，台中、彰化、南投皆可洽詢。提供設備尺寸重量、包裝照片及兩端裝卸條件，確認箱型鷗翼尾門車與電動拖板車的適用安排。",
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@context": "https://schema.org",
+            "@type": "LocalBusiness",
+            "@id": "https://zonex-transport.com.tw/#business",
+            "name": "宗錸物流公司",
+            "alternateName": "Zonex Transport",
+            "url": "https://zonex-transport.com.tw/",
+            "description": "中部貨運、全省配送與回頭車服務，承接物流倉儲轉運、工廠搬遷、世貿展覽進退場、機械設備與建材運送。",
+            "telephone": "+886-4-26633352",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "西屯路三段90之30巷5號",
+              "addressLocality": "西屯區",
+              "addressRegion": "台中市",
+              "addressCountry": "TW"
+            },
+            "areaServed": {
+              "@type": "Place",
+              "name": "台灣"
+            },
+            "image": "https://zonex-transport.com.tw/assets/hero-1600.35f813fe65.jpg",
+            "contactPoint": [
+              {
+                "@type": "ContactPoint",
+                "telephone": "+886-4-26633352",
+                "contactType": "customer service",
+                "availableLanguage": "zh-Hant"
+              },
+              {
+                "@type": "ContactPoint",
+                "telephone": "+886-919-083-060",
+                "contactType": "customer service",
+                "availableLanguage": "zh-Hant"
+              }
+            ]
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://zonex-transport.com.tw/services/machinery-transport/#webpage",
+            "url": "https://zonex-transport.com.tw/services/machinery-transport/",
+            "name": "機械設備運送｜台中叫車與全省配送｜宗錸物流",
+            "description": "宗錸物流承接機械設備、機器與展覽器材運送，台中、彰化、南投皆可洽詢。提供設備尺寸重量、包裝照片及兩端裝卸條件，確認箱型鷗翼尾門車與電動拖板車的適用安排。",
+            "inLanguage": "zh-Hant-TW",
+            "isPartOf": {
+              "@id": "https://zonex-transport.com.tw/#website"
+            },
+            "mainEntity": {
+              "@id": "https://zonex-transport.com.tw/services/machinery-transport/#service"
+            },
+            "breadcrumb": {
+              "@id": "https://zonex-transport.com.tw/services/machinery-transport/#breadcrumb"
+            }
+          },
+          {
+            "@type": "Service",
+            "@id": "https://zonex-transport.com.tw/services/machinery-transport/#service",
+            "name": "機械設備運送",
+            "serviceType": "機械設備運送",
+            "url": "https://zonex-transport.com.tw/services/machinery-transport/",
+            "description": "設備運送從一份清楚的貨物資料開始。宗錸承接機器、設備與展覽器材配送，依外部尺寸、重量、包裝與現場條件確認車輛安排；台中、彰化、南投皆可洽詢，全省配送依車趟確認。",
+            "provider": {
+              "@id": "https://zonex-transport.com.tw/#business"
+            },
+            "areaServed": {
+              "@type": "Place",
+              "name": "台灣"
+            }
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://zonex-transport.com.tw/services/machinery-transport/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "首頁",
+                "item": "https://zonex-transport.com.tw/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "機械設備運送",
+                "item": "https://zonex-transport.com.tw/services/machinery-transport/"
+              }
+            ]
+          }
+        ]
+      },
+      "main": "\n <nav class=\"breadcrumb\" aria-label=\"頁面路徑\"><ol><li><a href=\"/\">首頁</a></li><li aria-current=\"page\">機械設備運送</li></ol></nav>\n <section class=\"detail-hero\" aria-labelledby=\"detail-title\"><div class=\"detail-hero-copy\"><p class=\"eyebrow\">MACHINERY TRANSPORT</p><h1 id=\"detail-title\">機械設備運送</h1><p class=\"detail-lead\">設備運送從一份清楚的貨物資料開始。宗錸承接機器、設備與展覽器材配送，依外部尺寸、重量、包裝與現場條件確認車輛安排；台中、彰化、南投皆可洽詢，全省配送依車趟確認。</p><div class=\"detail-actions\"><a class=\"button primary\" href=\"tel:0919083060\">電話洽詢運送</a><a class=\"underlined-link\" href=\"#preparation\">查看準備資料</a></div><p class=\"detail-location\">台中・彰化・南投叫車洽詢 / 全省配送</p></div><figure class=\"detail-hero-photo\"><img class=\"detail-hero-image\" src=\"/assets/machine-960.9163104e14.jpg\" srcset=\"/assets/machine-480.30d5497903.jpg 480w, /assets/machine-720.5796c170ee.jpg 720w, /assets/machine-960.9163104e14.jpg 960w\" sizes=\"(max-width: 760px) calc(100vw - 44px), 45vw\" width=\"960\" height=\"720\" fetchpriority=\"high\" decoding=\"async\" alt=\"木箱與包裝完成的設備運送實況\"><figcaption>木箱與包裝完成的設備運送實況<span>宗錸運送實景</span></figcaption></figure></section>\n <section class=\"detail-intro\" aria-labelledby=\"intro-title\"><div><p class=\"eyebrow\">01 / PLAN THE JOURNEY</p><h2 id=\"intro-title\">設備尺寸、包裝與裝卸方式，一起確認。</h2></div><div class=\"detail-intro-copy\"><p>提供資料時，請量測包裝完成後的外部尺寸，將底座、突出部位與木箱一併計入；重量請提供可確認的資料，尚待確認時先註明，避免只依設備外觀判斷。</p><p>宗錸車輛為箱型鷗翼尾門車，配備電動拖板車。設備能否使用尾門或拖板車，仍須評估重量、底座、包裝與現場地面；涉及吊裝、拆裝、定位或特殊搬運需求，請在洽詢時提出，先確認作業範圍。</p></div></section>\n <section class=\"detail-scope\" aria-labelledby=\"scope-title\"><div class=\"section-heading\"><div><p class=\"eyebrow light\">02 / SERVICE SCOPE</p><h2 id=\"scope-title\">機械設備運送，<br>先確認這些需求。</h2></div><p>依貨物與現場條件，<br>確認每一趟運送安排。</p></div><div class=\"detail-scope-grid\"><article><span class=\"detail-number\">01 / SERVICE</span><h3>機器與設備配送</h3><p>整理設備名稱、件數與包裝完成後的尺寸重量，提供底座及外觀照片，確認裝載需求。</p></article><article><span class=\"detail-number\">02 / SERVICE</span><h3>木箱與棧板設備</h3><p>說明木箱或棧板尺寸、固定情況與可搬運位置；是否可堆疊、需維持直立等條件請明確註記。</p></article><article><span class=\"detail-number\">03 / SERVICE</span><h3>展覽器材運送</h3><p>設備送往展場或展後載回時，提供場館、進退場時段與收貨窗口，配合現場條件確認車趟。</p></article></div><a class=\"underlined-link\" href=\"/#equipment\">認識箱型鷗翼尾門車與電動拖板車</a></section>\n <section id=\"preparation\" class=\"detail-preparation\" aria-labelledby=\"prep-title\"><div><p class=\"eyebrow\">03 / BEFORE YOU CALL</p><h2 id=\"prep-title\">洽詢機械設備運送，<br>準備這三組資料。</h2><p>資料完整，方便確認承運條件與報價。</p></div><ol><li><span class=\"prep-number\">01</span><div><h3>設備規格與照片</h3><p>設備名稱、尺寸、重量、件數、包裝照片，以及突出部位、底座與搬運限制。</p></div></li><li><span class=\"prep-number\">02</span><div><h3>兩端現場與裝卸設備</h3><p>上下貨地址、樓層、出入口尺寸、地面及上下貨位置，說明兩端可用的裝卸設備。</p></div></li><li><span class=\"prep-number\">03</span><div><h3>日期與作業範圍</h3><p>運送日期、收貨時段及交接窗口；如需特殊搬運或其他現場作業，請先列出確認。</p></div></li></ol></section>\n <section class=\"detail-faq\" aria-labelledby=\"faq-title\"><div><p class=\"eyebrow\">04 / QUESTIONS</p><h2 id=\"faq-title\">洽詢前，<br>你可能想了解。</h2></div><div class=\"faq-list\"><details><summary><span>設備重量還不確定，能先詢問嗎？</span><span class=\"faq-action\"><span class=\"when-closed\">查看說明</span><span class=\"when-open\">收合說明</span></span></summary><p>可先附照片及已知規格洽詢，並註明重量尚未確認。承運與裝卸安排仍需補足必要資料後確認。</p></details><details><summary><span>所有設備都能用尾門與拖板車嗎？</span><span class=\"faq-action\"><span class=\"when-closed\">查看說明</span><span class=\"when-open\">收合說明</span></span></summary><p>是否適用取決於設備重量、底座、包裝及地面條件。請先提供設備與現場照片，確認後再安排。</p></details><details><summary><span>可以配合工廠搬遷或展覽運送嗎？</span><span class=\"faq-action\"><span class=\"when-closed\">查看說明</span><span class=\"when-open\">收合說明</span></span></summary><p>可提供設備清單與兩端地址洽詢；工廠搬遷需說明分批順序，展覽運送需提供場館與進退場時段。</p></details></div></section>\n <section id=\"contact\" class=\"detail-contact\" aria-labelledby=\"contact-title\"><div><p class=\"eyebrow\">LET’S GET MOVING</p><h2 id=\"contact-title\">把這一趟，<br>交給宗錸聊聊。</h2><p>把貨物照片、起訖地址與日期準備好，聯絡宗錸確認機械設備運送安排。</p><a class=\"button primary\" href=\"https://line.me/ti/p/swxaMQm3yw\" target=\"_blank\" rel=\"noopener\">LINE 洽詢運送</a></div><div class=\"contact-details\"><div class=\"contact-row\"><span>電話洽詢</span><a href=\"tel:0426633352\">市內電話 <strong>04-2663-3352</strong></a><a href=\"tel:0919083060\">手機電話 <strong>0919-083-060</strong></a></div><div class=\"contact-row\"><span>公司地址</span><a class=\"address\" href=\"https://www.google.com/maps/search/?api=1&amp;query=台中市西屯區西屯路三段90之30巷5號\" target=\"_blank\" rel=\"noopener\">台中市西屯區<br>西屯路三段90之30巷5號</a></div></div></section>\n <nav class=\"detail-related\" aria-label=\"延伸服務\"><span>延伸了解</span><a href=\"/services/factory-relocation/\">工廠搬遷運送</a><a href=\"/services/exhibition-logistics/\">世貿展覽進退場運送</a><a href=\"/services/return-truck/\">台中回頭車</a><a href=\"/#services\">全部運送服務</a></nav>\n "
+    },
+    "nationwide-delivery": {
+      "title": "全省配送｜台中出發的南北貨運與多點配送洽詢｜宗錸物流",
+      "description": "宗錸物流提供台中與中部叫車洽詢、全省北上南下貨運配送，依起訖地址、貨物尺寸重量及收貨時段確認車趟。了解單點、多點與分批配送的準備資料，也可依日期彈性洽詢回頭車。",
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@context": "https://schema.org",
+            "@type": "LocalBusiness",
+            "@id": "https://zonex-transport.com.tw/#business",
+            "name": "宗錸物流公司",
+            "alternateName": "Zonex Transport",
+            "url": "https://zonex-transport.com.tw/",
+            "description": "中部貨運、全省配送與回頭車服務，承接物流倉儲轉運、工廠搬遷、世貿展覽進退場、機械設備與建材運送。",
+            "telephone": "+886-4-26633352",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "西屯路三段90之30巷5號",
+              "addressLocality": "西屯區",
+              "addressRegion": "台中市",
+              "addressCountry": "TW"
+            },
+            "areaServed": {
+              "@type": "Place",
+              "name": "台灣"
+            },
+            "image": "https://zonex-transport.com.tw/assets/hero-1600.35f813fe65.jpg",
+            "contactPoint": [
+              {
+                "@type": "ContactPoint",
+                "telephone": "+886-4-26633352",
+                "contactType": "customer service",
+                "availableLanguage": "zh-Hant"
+              },
+              {
+                "@type": "ContactPoint",
+                "telephone": "+886-919-083-060",
+                "contactType": "customer service",
+                "availableLanguage": "zh-Hant"
+              }
+            ]
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://zonex-transport.com.tw/services/nationwide-delivery/#webpage",
+            "url": "https://zonex-transport.com.tw/services/nationwide-delivery/",
+            "name": "全省配送｜台中出發的南北貨運與多點配送洽詢｜宗錸物流",
+            "description": "宗錸物流提供台中與中部叫車洽詢、全省北上南下貨運配送，依起訖地址、貨物尺寸重量及收貨時段確認車趟。了解單點、多點與分批配送的準備資料，也可依日期彈性洽詢回頭車。",
+            "inLanguage": "zh-Hant-TW",
+            "isPartOf": {
+              "@id": "https://zonex-transport.com.tw/#website"
+            },
+            "mainEntity": {
+              "@id": "https://zonex-transport.com.tw/services/nationwide-delivery/#service"
+            },
+            "breadcrumb": {
+              "@id": "https://zonex-transport.com.tw/services/nationwide-delivery/#breadcrumb"
+            }
+          },
+          {
+            "@type": "Service",
+            "@id": "https://zonex-transport.com.tw/services/nationwide-delivery/#service",
+            "name": "全省配送",
+            "serviceType": "全省配送",
+            "url": "https://zonex-transport.com.tw/services/nationwide-delivery/",
+            "description": "從台中與中部出發，把貨物送往下一個收貨點。宗錸提供全省北上、南下貨運配送，台中、彰化、南投可洽詢叫車；單點、多點或分批運送，皆先依貨物、路線與收貨條件確認安排。",
+            "provider": {
+              "@id": "https://zonex-transport.com.tw/#business"
+            },
+            "areaServed": {
+              "@type": "Place",
+              "name": "台灣"
+            }
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://zonex-transport.com.tw/services/nationwide-delivery/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "首頁",
+                "item": "https://zonex-transport.com.tw/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "全省配送",
+                "item": "https://zonex-transport.com.tw/services/nationwide-delivery/"
+              }
+            ]
+          }
+        ]
+      },
+      "main": "\n <nav class=\"breadcrumb\" aria-label=\"頁面路徑\"><ol><li><a href=\"/\">首頁</a></li><li aria-current=\"page\">全省配送</li></ol></nav>\n <section class=\"detail-hero\" aria-labelledby=\"detail-title\"><div class=\"detail-hero-copy\"><p class=\"eyebrow\">NATIONWIDE DELIVERY</p><h1 id=\"detail-title\">全省配送</h1><p class=\"detail-lead\">從台中與中部出發，把貨物送往下一個收貨點。宗錸提供全省北上、南下貨運配送，台中、彰化、南投可洽詢叫車；單點、多點或分批運送，皆先依貨物、路線與收貨條件確認安排。</p><div class=\"detail-actions\"><a class=\"button primary\" href=\"tel:0919083060\">電話洽詢運送</a><a class=\"underlined-link\" href=\"#preparation\">查看準備資料</a></div><p class=\"detail-location\">台中・彰化・南投叫車洽詢 / 全省配送</p></div><figure class=\"detail-hero-photo\"><img class=\"detail-hero-image\" src=\"/assets/hero-1600.35f813fe65.jpg\" srcset=\"/assets/hero-800.bc44f53342.jpg 800w, /assets/hero-1200.1912465b54.jpg 1200w, /assets/hero-1600.35f813fe65.jpg 1600w, /assets/hero-2200.0dca72709a.jpg 2200w\" sizes=\"(max-width: 760px) calc(100vw - 44px), 45vw\" width=\"1600\" height=\"1200\" fetchpriority=\"high\" decoding=\"async\" alt=\"宗錸鷗翼貨車側翼開啟，裝載棧板建材\"><figcaption>宗錸鷗翼貨車側翼開啟，裝載棧板建材<span>宗錸運送實景</span></figcaption></figure></section>\n <section class=\"detail-intro\" aria-labelledby=\"intro-title\"><div><p class=\"eyebrow\">01 / PLAN THE JOURNEY</p><h2 id=\"intro-title\">跨縣市配送，把各點資料整理完整。</h2></div><div class=\"detail-intro-copy\"><p>配送範圍請以實際上下貨地址確認。跨縣市路線需要考慮貨物尺寸重量、兩端作業時段及現場裝卸條件；需要特定日期到貨時，請先提出確認，避免只依距離推估。</p><p>多點配送請將各點的貨物、地址、聯絡窗口與收貨時段分開整理。若有先後順序或分批需求，請一併說明；若日期有彈性，也可洽詢回頭車是否適合當次路線。</p></div></section>\n <section class=\"detail-scope\" aria-labelledby=\"scope-title\"><div class=\"section-heading\"><div><p class=\"eyebrow light\">02 / SERVICE SCOPE</p><h2 id=\"scope-title\">全省配送，<br>先確認這些需求。</h2></div><p>依貨物與現場條件，<br>確認每一趟運送安排。</p></div><div class=\"detail-scope-grid\"><article><span class=\"detail-number\">01 / SERVICE</span><h3>單點跨縣市配送</h3><p>提供取貨與送達地址、貨物資料及希望日期，依路線與收貨條件確認車趟。</p></article><article><span class=\"detail-number\">02 / SERVICE</span><h3>多點交貨安排</h3><p>分列各點地址、交貨品項與時段；提供期望順序，由宗錸確認當次可安排的路線。</p></article><article><span class=\"detail-number\">03 / SERVICE</span><h3>分批運送與回頭車洽詢</h3><p>貨物需分批或日期可彈性配合時，請說明每批數量與時間範圍，再確認適合的安排。</p></article></div><a class=\"underlined-link\" href=\"/#equipment\">認識箱型鷗翼尾門車與電動拖板車</a></section>\n <section id=\"preparation\" class=\"detail-preparation\" aria-labelledby=\"prep-title\"><div><p class=\"eyebrow\">03 / BEFORE YOU CALL</p><h2 id=\"prep-title\">洽詢全省配送，<br>準備這三組資料。</h2><p>資料完整，方便確認承運條件與報價。</p></div><ol><li><span class=\"prep-number\">01</span><div><h3>貨物清單與總量</h3><p>品項、件數、棧板數、包裝尺寸重量及照片；各配送點的貨物請分開標示。</p></div></li><li><span class=\"prep-number\">02</span><div><h3>各點地址與收貨窗口</h3><p>取貨及每個交貨點的完整地址、窗口、時段及裝卸設備，並說明進出限制。</p></div></li><li><span class=\"prep-number\">03</span><div><h3>配送日期與交貨順序</h3><p>希望取貨日期、各點到貨需求、期望順序與可調整範圍，供確認路線及報價。</p></div></li></ol></section>\n <section class=\"detail-faq\" aria-labelledby=\"faq-title\"><div><p class=\"eyebrow\">04 / QUESTIONS</p><h2 id=\"faq-title\">洽詢前，<br>你可能想了解。</h2></div><div class=\"faq-list\"><details><summary><span>全省配送可以指定任何日期到貨嗎？</span><span class=\"faq-action\"><span class=\"when-closed\">查看說明</span><span class=\"when-open\">收合說明</span></span></summary><p>請先提供兩端地址、貨物資料及指定時段。是否能配合需依路線與當次車趟確認，不預設當日或隔日到貨。</p></details><details><summary><span>可以安排多個收貨點嗎？</span><span class=\"faq-action\"><span class=\"when-closed\">查看說明</span><span class=\"when-open\">收合說明</span></span></summary><p>可提供各點地址、品項、數量與收貨時段洽詢。配送順序、車趟及報價確認後再安排交貨。</p></details><details><summary><span>偏遠地點或有進出限制的地址如何確認？</span><span class=\"faq-action\"><span class=\"when-closed\">查看說明</span><span class=\"when-open\">收合說明</span></span></summary><p>提供完整地址與現場照片，說明道路、限高、停靠及裝卸條件。實際可承運範圍與安排請事先聯絡確認。</p></details></div></section>\n <section id=\"contact\" class=\"detail-contact\" aria-labelledby=\"contact-title\"><div><p class=\"eyebrow\">LET’S GET MOVING</p><h2 id=\"contact-title\">把這一趟，<br>交給宗錸聊聊。</h2><p>把貨物照片、起訖地址與日期準備好，聯絡宗錸確認全省配送安排。</p><a class=\"button primary\" href=\"https://line.me/ti/p/swxaMQm3yw\" target=\"_blank\" rel=\"noopener\">LINE 洽詢運送</a></div><div class=\"contact-details\"><div class=\"contact-row\"><span>電話洽詢</span><a href=\"tel:0426633352\">市內電話 <strong>04-2663-3352</strong></a><a href=\"tel:0919083060\">手機電話 <strong>0919-083-060</strong></a></div><div class=\"contact-row\"><span>公司地址</span><a class=\"address\" href=\"https://www.google.com/maps/search/?api=1&amp;query=台中市西屯區西屯路三段90之30巷5號\" target=\"_blank\" rel=\"noopener\">台中市西屯區<br>西屯路三段90之30巷5號</a></div></div></section>\n <nav class=\"detail-related\" aria-label=\"延伸服務\"><span>延伸了解</span><a href=\"/services/return-truck/\">台中回頭車</a><a href=\"/services/building-materials/\">建材運送</a><a href=\"/services/warehouse-transfer/\">倉儲轉運</a><a href=\"/#services\">全部運送服務</a></nav>\n "
+    },
+    "return-truck": {
+      "title": "台中回頭車｜中部叫車與南北貨運洽詢｜宗錸物流",
+      "description": "宗錸物流提供台中與中部回頭車洽詢，依起訖地點、貨物尺寸重量及可配合日期確認路線與車趟。了解回頭車安排、裝卸條件與報價準備資料，北上南下貨運皆可來電詢問。",
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@context": "https://schema.org",
+            "@type": "LocalBusiness",
+            "@id": "https://zonex-transport.com.tw/#business",
+            "name": "宗錸物流公司",
+            "alternateName": "Zonex Transport",
+            "url": "https://zonex-transport.com.tw/",
+            "description": "中部貨運、全省配送與回頭車服務，承接物流倉儲轉運、工廠搬遷、世貿展覽進退場、機械設備與建材運送。",
+            "telephone": "+886-4-26633352",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "西屯路三段90之30巷5號",
+              "addressLocality": "西屯區",
+              "addressRegion": "台中市",
+              "addressCountry": "TW"
+            },
+            "areaServed": {
+              "@type": "Place",
+              "name": "台灣"
+            },
+            "image": "https://zonex-transport.com.tw/assets/hero-1600.35f813fe65.jpg",
+            "contactPoint": [
+              {
+                "@type": "ContactPoint",
+                "telephone": "+886-4-26633352",
+                "contactType": "customer service",
+                "availableLanguage": "zh-Hant"
+              },
+              {
+                "@type": "ContactPoint",
+                "telephone": "+886-919-083-060",
+                "contactType": "customer service",
+                "availableLanguage": "zh-Hant"
+              }
+            ]
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://zonex-transport.com.tw/services/return-truck/#webpage",
+            "url": "https://zonex-transport.com.tw/services/return-truck/",
+            "name": "台中回頭車｜中部叫車與南北貨運洽詢｜宗錸物流",
+            "description": "宗錸物流提供台中與中部回頭車洽詢，依起訖地點、貨物尺寸重量及可配合日期確認路線與車趟。了解回頭車安排、裝卸條件與報價準備資料，北上南下貨運皆可來電詢問。",
+            "inLanguage": "zh-Hant-TW",
+            "isPartOf": {
+              "@id": "https://zonex-transport.com.tw/#website"
+            },
+            "mainEntity": {
+              "@id": "https://zonex-transport.com.tw/services/return-truck/#service"
+            },
+            "breadcrumb": {
+              "@id": "https://zonex-transport.com.tw/services/return-truck/#breadcrumb"
+            }
+          },
+          {
+            "@type": "Service",
+            "@id": "https://zonex-transport.com.tw/services/return-truck/#service",
+            "name": "台中回頭車",
+            "serviceType": "台中回頭車",
+            "url": "https://zonex-transport.com.tw/services/return-truck/",
+            "description": "從台中與中部洽詢北上、南下貨運時，可一併詢問回頭車安排。先提供起點、目的地、貨物資料與可配合日期，宗錸再依路線及車趟確認是否適合承運。",
+            "provider": {
+              "@id": "https://zonex-transport.com.tw/#business"
+            },
+            "areaServed": {
+              "@type": "Place",
+              "name": "台灣"
+            }
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://zonex-transport.com.tw/services/return-truck/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "首頁",
+                "item": "https://zonex-transport.com.tw/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "台中回頭車",
+                "item": "https://zonex-transport.com.tw/services/return-truck/"
+              }
+            ]
+          }
+        ]
+      },
+      "main": "\n <nav class=\"breadcrumb\" aria-label=\"頁面路徑\"><ol><li><a href=\"/\">首頁</a></li><li aria-current=\"page\">台中回頭車</li></ol></nav>\n <section class=\"detail-hero\" aria-labelledby=\"detail-title\"><div class=\"detail-hero-copy\"><p class=\"eyebrow\">RETURN TRUCK</p><h1 id=\"detail-title\">台中回頭車</h1><p class=\"detail-lead\">從台中與中部洽詢北上、南下貨運時，可一併詢問回頭車安排。先提供起點、目的地、貨物資料與可配合日期，宗錸再依路線及車趟確認是否適合承運。</p><div class=\"detail-actions\"><a class=\"button primary\" href=\"tel:0919083060\">電話洽詢運送</a><a class=\"underlined-link\" href=\"#preparation\">查看準備資料</a></div><p class=\"detail-location\">台中・彰化・南投叫車洽詢 / 全省配送</p></div><figure class=\"detail-hero-photo\"><img class=\"detail-hero-image\" src=\"/assets/warehouse-960.c03654c3d6.jpg\" srcset=\"/assets/warehouse-480.1783ad5242.jpg 480w, /assets/warehouse-720.fd229481bd.jpg 720w, /assets/warehouse-960.c03654c3d6.jpg 960w\" sizes=\"(max-width: 760px) calc(100vw - 44px), 45vw\" width=\"960\" height=\"720\" fetchpriority=\"high\" decoding=\"async\" alt=\"整齊排列於鷗翼車上的箱裝棧板貨物\"><figcaption>整齊排列於鷗翼車上的箱裝棧板貨物<span>宗錸運送實景</span></figcaption></figure></section>\n <section class=\"detail-intro\" aria-labelledby=\"intro-title\"><div><p class=\"eyebrow\">01 / PLAN THE JOURNEY</p><h2 id=\"intro-title\">回頭車安排，先確認路線與日期彈性。</h2></div><div class=\"detail-intro-copy\"><p>回頭車需要銜接車輛原有行程。若取貨或到貨有固定時段，請先清楚列出；若能配合數個日期，也請說明可接受的範圍，方便確認車趟。</p><p>箱裝、棧板或其他貨物都需要提供數量、尺寸、重量及包裝方式。報價依當次貨物與運送條件確認，洽詢時不預設折扣或一定有車；確認承運後，再安排兩端交接。</p></div></section>\n <section class=\"detail-scope\" aria-labelledby=\"scope-title\"><div class=\"section-heading\"><div><p class=\"eyebrow light\">02 / SERVICE SCOPE</p><h2 id=\"scope-title\">台中回頭車，<br>先確認這些需求。</h2></div><p>依貨物與現場條件，<br>確認每一趟運送安排。</p></div><div class=\"detail-scope-grid\"><article><span class=\"detail-number\">01 / SERVICE</span><h3>北上與南下路線</h3><p>提供完整上下貨地址，不只縣市名稱。台中、彰化、南投可洽詢叫車，跨縣市路線依當次車趟確認。</p></article><article><span class=\"detail-number\">02 / SERVICE</span><h3>日期可配合的貨物</h3><p>列出最早可取貨與最晚需到貨的時間；若兩端有預約收貨或作業時段，請一併告知。</p></article><article><span class=\"detail-number\">03 / SERVICE</span><h3>棧板與箱裝貨物</h3><p>提供棧板數、各板尺寸與重量，散件另列數量；說明是否可堆疊，以及上下貨現場的設備。</p></article></div><a class=\"underlined-link\" href=\"/#equipment\">認識箱型鷗翼尾門車與電動拖板車</a></section>\n <section id=\"preparation\" class=\"detail-preparation\" aria-labelledby=\"prep-title\"><div><p class=\"eyebrow\">03 / BEFORE YOU CALL</p><h2 id=\"prep-title\">洽詢台中回頭車，<br>準備這三組資料。</h2><p>資料完整，方便確認承運條件與報價。</p></div><ol><li><span class=\"prep-number\">01</span><div><h3>起訖地址與收貨窗口</h3><p>取貨與送達地址、現場聯絡窗口、可作業時段，以及車輛進出限制。</p></div></li><li><span class=\"prep-number\">02</span><div><h3>貨物數量與裝卸條件</h3><p>貨物照片、尺寸、重量、包裝、棧板數，以及兩端是否有堆高機或需要尾門協助。</p></div></li><li><span class=\"prep-number\">03</span><div><h3>可配合日期與到貨需求</h3><p>希望日期、可彈性調整的範圍及最晚到貨需求，方便宗錸確認當次車趟與報價。</p></div></li></ol></section>\n <section class=\"detail-faq\" aria-labelledby=\"faq-title\"><div><p class=\"eyebrow\">04 / QUESTIONS</p><h2 id=\"faq-title\">洽詢前，<br>你可能想了解。</h2></div><div class=\"faq-list\"><details><summary><span>回頭車可以指定到貨時間嗎？</span><span class=\"faq-action\"><span class=\"when-closed\">查看說明</span><span class=\"when-open\">收合說明</span></span></summary><p>請先提供指定時段與可調整範圍。能否配合需依路線、車趟與兩端裝卸條件確認，詢問後再約定安排。</p></details><details><summary><span>回頭車一定比專車便宜嗎？</span><span class=\"faq-action\"><span class=\"when-closed\">查看說明</span><span class=\"when-open\">收合說明</span></span></summary><p>運費依路線、貨物、裝卸及當次車趟報價。請提供實際需求詢問，不以固定折扣或單一價格判斷。</p></details><details><summary><span>設備或建材也能洽詢回頭車嗎？</span><span class=\"faq-action\"><span class=\"when-closed\">查看說明</span><span class=\"when-open\">收合說明</span></span></summary><p>可以先提供品項、包裝照片、尺寸與重量。是否適合此車趟，需依承運條件確認。</p></details></div></section>\n <section id=\"contact\" class=\"detail-contact\" aria-labelledby=\"contact-title\"><div><p class=\"eyebrow\">LET’S GET MOVING</p><h2 id=\"contact-title\">把這一趟，<br>交給宗錸聊聊。</h2><p>把貨物照片、起訖地址與日期準備好，聯絡宗錸確認台中回頭車安排。</p><a class=\"button primary\" href=\"https://line.me/ti/p/swxaMQm3yw\" target=\"_blank\" rel=\"noopener\">LINE 洽詢運送</a></div><div class=\"contact-details\"><div class=\"contact-row\"><span>電話洽詢</span><a href=\"tel:0426633352\">市內電話 <strong>04-2663-3352</strong></a><a href=\"tel:0919083060\">手機電話 <strong>0919-083-060</strong></a></div><div class=\"contact-row\"><span>公司地址</span><a class=\"address\" href=\"https://www.google.com/maps/search/?api=1&amp;query=台中市西屯區西屯路三段90之30巷5號\" target=\"_blank\" rel=\"noopener\">台中市西屯區<br>西屯路三段90之30巷5號</a></div></div></section>\n <nav class=\"detail-related\" aria-label=\"延伸服務\"><span>延伸了解</span><a href=\"/services/nationwide-delivery/\">全省配送</a><a href=\"/services/machinery-transport/\">機械設備運送</a><a href=\"/services/building-materials/\">建材運送</a><a href=\"/#services\">全部運送服務</a></nav>\n "
+    },
+    "warehouse-transfer": {
+      "title": "倉儲轉運｜台中箱裝、棧板貨物與轉倉配送｜宗錸物流",
+      "description": "宗錸物流提供倉庫與收貨端之間的倉儲轉運配送，承接箱裝與棧板貨物運送。台中、彰化、南投可洽詢叫車，整理轉倉清單、收貨預約、尺寸重量及裝卸條件，確認運送安排。",
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@context": "https://schema.org",
+            "@type": "LocalBusiness",
+            "@id": "https://zonex-transport.com.tw/#business",
+            "name": "宗錸物流公司",
+            "alternateName": "Zonex Transport",
+            "url": "https://zonex-transport.com.tw/",
+            "description": "中部貨運、全省配送與回頭車服務，承接物流倉儲轉運、工廠搬遷、世貿展覽進退場、機械設備與建材運送。",
+            "telephone": "+886-4-26633352",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "西屯路三段90之30巷5號",
+              "addressLocality": "西屯區",
+              "addressRegion": "台中市",
+              "addressCountry": "TW"
+            },
+            "areaServed": {
+              "@type": "Place",
+              "name": "台灣"
+            },
+            "image": "https://zonex-transport.com.tw/assets/hero-1600.35f813fe65.jpg",
+            "contactPoint": [
+              {
+                "@type": "ContactPoint",
+                "telephone": "+886-4-26633352",
+                "contactType": "customer service",
+                "availableLanguage": "zh-Hant"
+              },
+              {
+                "@type": "ContactPoint",
+                "telephone": "+886-919-083-060",
+                "contactType": "customer service",
+                "availableLanguage": "zh-Hant"
+              }
+            ]
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://zonex-transport.com.tw/services/warehouse-transfer/#webpage",
+            "url": "https://zonex-transport.com.tw/services/warehouse-transfer/",
+            "name": "倉儲轉運｜台中箱裝、棧板貨物與轉倉配送｜宗錸物流",
+            "description": "宗錸物流提供倉庫與收貨端之間的倉儲轉運配送，承接箱裝與棧板貨物運送。台中、彰化、南投可洽詢叫車，整理轉倉清單、收貨預約、尺寸重量及裝卸條件，確認運送安排。",
+            "inLanguage": "zh-Hant-TW",
+            "isPartOf": {
+              "@id": "https://zonex-transport.com.tw/#website"
+            },
+            "mainEntity": {
+              "@id": "https://zonex-transport.com.tw/services/warehouse-transfer/#service"
+            },
+            "breadcrumb": {
+              "@id": "https://zonex-transport.com.tw/services/warehouse-transfer/#breadcrumb"
+            }
+          },
+          {
+            "@type": "Service",
+            "@id": "https://zonex-transport.com.tw/services/warehouse-transfer/#service",
+            "name": "倉儲轉運",
+            "serviceType": "倉儲轉運",
+            "url": "https://zonex-transport.com.tw/services/warehouse-transfer/",
+            "description": "銜接倉庫與收貨端，宗錸承接箱裝、棧板與各類貨物的轉運配送。這項服務以倉庫間或倉庫至指定地點的貨物運送為主；提供轉倉清單、取送地址與收貨條件，方便確認承運與車趟。",
+            "provider": {
+              "@id": "https://zonex-transport.com.tw/#business"
+            },
+            "areaServed": {
+              "@type": "Place",
+              "name": "台灣"
+            }
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://zonex-transport.com.tw/services/warehouse-transfer/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "首頁",
+                "item": "https://zonex-transport.com.tw/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "倉儲轉運",
+                "item": "https://zonex-transport.com.tw/services/warehouse-transfer/"
+              }
+            ]
+          }
+        ]
+      },
+      "main": "\n <nav class=\"breadcrumb\" aria-label=\"頁面路徑\"><ol><li><a href=\"/\">首頁</a></li><li aria-current=\"page\">倉儲轉運</li></ol></nav>\n <section class=\"detail-hero\" aria-labelledby=\"detail-title\"><div class=\"detail-hero-copy\"><p class=\"eyebrow\">WAREHOUSE TRANSFER</p><h1 id=\"detail-title\">倉儲轉運</h1><p class=\"detail-lead\">銜接倉庫與收貨端，宗錸承接箱裝、棧板與各類貨物的轉運配送。這項服務以倉庫間或倉庫至指定地點的貨物運送為主；提供轉倉清單、取送地址與收貨條件，方便確認承運與車趟。</p><div class=\"detail-actions\"><a class=\"button primary\" href=\"tel:0919083060\">電話洽詢運送</a><a class=\"underlined-link\" href=\"#preparation\">查看準備資料</a></div><p class=\"detail-location\">台中・彰化・南投叫車洽詢 / 全省配送</p></div><figure class=\"detail-hero-photo\"><img class=\"detail-hero-image\" src=\"/assets/warehouse-960.c03654c3d6.jpg\" srcset=\"/assets/warehouse-480.1783ad5242.jpg 480w, /assets/warehouse-720.fd229481bd.jpg 720w, /assets/warehouse-960.c03654c3d6.jpg 960w\" sizes=\"(max-width: 760px) calc(100vw - 44px), 45vw\" width=\"960\" height=\"720\" fetchpriority=\"high\" decoding=\"async\" alt=\"整齊排列於鷗翼車上的箱裝棧板貨物\"><figcaption>整齊排列於鷗翼車上的箱裝棧板貨物<span>宗錸運送實景</span></figcaption></figure></section>\n <section class=\"detail-intro\" aria-labelledby=\"intro-title\"><div><p class=\"eyebrow\">01 / PLAN THE JOURNEY</p><h2 id=\"intro-title\">轉倉配送，先核對貨物與兩端交接。</h2></div><div class=\"detail-intro-copy\"><p>每批貨物請整理箱數、棧板數、尺寸、重量及包裝，並分別標示目的地。若取貨或收貨需預約、提供單號或配合倉庫窗口，請將相關作業條件一併告知。</p><p>洽詢倉儲轉運時，請先說明需求是倉庫間移轉，或由倉庫送往工廠、建材行等收貨端。若另有寄倉、長期存放、理貨或庫存管理需求，需另外確認服務內容與條件，請勿直接視為本次運送安排。</p></div></section>\n <section class=\"detail-scope\" aria-labelledby=\"scope-title\"><div class=\"section-heading\"><div><p class=\"eyebrow light\">02 / SERVICE SCOPE</p><h2 id=\"scope-title\">倉儲轉運，<br>先確認這些需求。</h2></div><p>依貨物與現場條件，<br>確認每一趟運送安排。</p></div><div class=\"detail-scope-grid\"><article><span class=\"detail-number\">01 / SERVICE</span><h3>倉庫間貨物移轉</h3><p>提供搬出與搬入倉庫地址、窗口、可作業時間及清單，確認兩端交接需求。</p></article><article><span class=\"detail-number\">02 / SERVICE</span><h3>箱裝與棧板配送</h3><p>箱裝貨物與棧板分開列出，說明數量、重量與堆疊限制，附包裝及裝載位置照片。</p></article><article><span class=\"detail-number\">03 / SERVICE</span><h3>倉庫至收貨端運送</h3><p>提供工廠、建材行或其他指定交貨點，列出各點貨物與收貨條件，確認配送安排。</p></article></div><a class=\"underlined-link\" href=\"/#equipment\">認識箱型鷗翼尾門車與電動拖板車</a></section>\n <section id=\"preparation\" class=\"detail-preparation\" aria-labelledby=\"prep-title\"><div><p class=\"eyebrow\">03 / BEFORE YOU CALL</p><h2 id=\"prep-title\">洽詢倉儲轉運，<br>準備這三組資料。</h2><p>資料完整，方便確認承運條件與報價。</p></div><ol><li><span class=\"prep-number\">01</span><div><h3>分批貨物與目的地清單</h3><p>箱數、棧板數、包裝尺寸與重量；不同目的地分項列出，尚待確認的資料請註記。</p></div></li><li><span class=\"prep-number\">02</span><div><h3>倉庫交接與取送條件</h3><p>兩端地址、窗口、預約時段、需備文件或單號，以及現場裝卸設備。</p></div></li><li><span class=\"prep-number\">03</span><div><h3>日期與配送需求</h3><p>取貨日期、可收貨時間、多點配送或分批轉倉需求，方便確認路線與車趟。</p></div></li></ol></section>\n <section class=\"detail-faq\" aria-labelledby=\"faq-title\"><div><p class=\"eyebrow\">04 / QUESTIONS</p><h2 id=\"faq-title\">洽詢前，<br>你可能想了解。</h2></div><div class=\"faq-list\"><details><summary><span>倉儲轉運包含倉庫出租或長期寄倉嗎？</span><span class=\"faq-action\"><span class=\"when-closed\">查看說明</span><span class=\"when-open\">收合說明</span></span></summary><p>此頁說明的是倉庫與收貨端之間的貨物運送。寄倉、出租、理貨或庫存管理需求需另外詢問，確認服務範圍後再安排。</p></details><details><summary><span>倉庫有收貨預約，可以配合嗎？</span><span class=\"faq-action\"><span class=\"when-closed\">查看說明</span><span class=\"when-open\">收合說明</span></span></summary><p>請提供預約時段、窗口、單號及需備文件，宗錸會依路線與車趟確認是否可配合。</p></details><details><summary><span>轉倉可以使用回頭車嗎？</span><span class=\"faq-action\"><span class=\"when-closed\">查看說明</span><span class=\"when-open\">收合說明</span></span></summary><p>可提供起訖地址、貨物資料與日期彈性洽詢。實際安排依車趟及倉庫的取送條件確認。</p></details></div></section>\n <section id=\"contact\" class=\"detail-contact\" aria-labelledby=\"contact-title\"><div><p class=\"eyebrow\">LET’S GET MOVING</p><h2 id=\"contact-title\">把這一趟，<br>交給宗錸聊聊。</h2><p>把貨物照片、起訖地址與日期準備好，聯絡宗錸確認倉儲轉運安排。</p><a class=\"button primary\" href=\"https://line.me/ti/p/swxaMQm3yw\" target=\"_blank\" rel=\"noopener\">LINE 洽詢運送</a></div><div class=\"contact-details\"><div class=\"contact-row\"><span>電話洽詢</span><a href=\"tel:0426633352\">市內電話 <strong>04-2663-3352</strong></a><a href=\"tel:0919083060\">手機電話 <strong>0919-083-060</strong></a></div><div class=\"contact-row\"><span>公司地址</span><a class=\"address\" href=\"https://www.google.com/maps/search/?api=1&amp;query=台中市西屯區西屯路三段90之30巷5號\" target=\"_blank\" rel=\"noopener\">台中市西屯區<br>西屯路三段90之30巷5號</a></div></div></section>\n <nav class=\"detail-related\" aria-label=\"延伸服務\"><span>延伸了解</span><a href=\"/services/nationwide-delivery/\">全省配送</a><a href=\"/services/return-truck/\">台中回頭車</a><a href=\"/services/factory-relocation/\">工廠搬遷運送</a><a href=\"/#services\">全部運送服務</a></nav>\n "
+    }
+  }
+}

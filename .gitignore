@@ -1,0 +1,7 @@
+node_modules/
+test-results/
+research/
+.npm-cache/
+*.log
+.env*
+!.env.example

@@ -1,0 +1,13 @@
+{
+  "name": "zonex-uiux-v2",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Independent Zonex Transport UI/UX concept for GitHub Pages",
+  "scripts": {
+    "build": "node scripts/build.cjs",
+    "serve": "node scripts/server.cjs",
+    "check": "node scripts/check.cjs",
+    "test": "node tests/site.spec.cjs"
+  },
+  "devDependencies": {"@playwright/test":"^1.58.2","@axe-core/playwright":"^4.11.1"}
+}
