@@ -1,31 +1,53 @@
-# Local QA result
+# Local redesign QA result
 
-Tested: 2026-11-12 02:03 UTC. Target: `http://127.0.0.1:4176/zonex-uiux-v2/`.
+Tested: 2026-11-12, 10:20 Taiwan time (02:20 UTC).
+Target: http://127.0.0.1:4176/zonex-uiux-v2/
+Final assets: `style.6815659f5c.css` and `app.80b191ab0f.js`.
 
-**74 of 74 automated checks passed** using `npm test` and this project's installed Playwright/axe dependencies. The full local suite was repeated after the keyboard race fix with all 74 passing again. Final build assets tested: `style.cb4aafa9d6.css` and `app.80b191ab0f.js`.
+## Result
 
-## Verified
+- `npm run build`: passed; homepage, seven service pages and 404 generated.
+- `npm run check`: passed; nine HTML documents, 370 local references and 28 metadata-free JPEG assets validated.
+- `npm test`: 74/74 passed. The complete suite was run again after final Chinese-heading fixes and passed again.
+- `git diff --check`: passed. Git printed line-ending normalization notices, not whitespace errors.
+- Additional 844 x 390 landscape homepage check: no horizontal overflow.
 
-- Homepage and all seven service pages load with working images, expected structure and subpath-safe links.
-- No horizontal page overflow at 320, 375, 390, 768, 1024 or 1440 pixels. The custom 404 also passes all six widths and returns HTTP 404.
-- No axe violations under the configured WCAG A/AA and best-practice tags on homepage, seven service pages and 404. Expanded mobile navigation and desktop homepage also pass their configured axe checks.
-- Menu opening/closing, repeated interactions, Escape, outside click, breakpoint change, navigation and browser history pass.
-- Service tabs, keyboard movement, responsive orientation, all inquiry-guide options and service CTA synchronization pass.
-- Clipboard success, denied access and missing clipboard API behave correctly. Manual fallback text receives focus and selection; changing service clears stale feedback.
-- Keyboard skip link and focus indicators, reduced-motion preference and JavaScript-disabled essential navigation/contact links pass.
-- No unexpected third-party requests or page JavaScript errors were observed during route checks. No external contact link was clicked and no inquiry was transmitted.
-- Telephone targets `tel:0919083060`, `tel:0426633352` and LINE target `https://line.me/ti/p/swxaMQm3yw` match the original public homepage snapshot exactly.
+## Automated coverage
 
-## Visual evidence
+- Homepage and all seven service pages load with decoded images and correct local subpath links.
+- No page-level horizontal overflow at 320, 375, 390, 768, 1024 or 1440 pixels. The 404 passes those widths and returns HTTP 404.
+- No axe violations under the configured WCAG A/AA and best-practice tags on the homepage, all seven service pages, 404, expanded mobile navigation and desktop homepage.
+- Mobile menu repeated activation, Escape, outside click, resize, navigation and browser history.
+- Keyboard skip link/focus behavior, service tabs and responsive keyboard orientation.
+- Inquiry selection, CTA synchronization, clipboard success, denied/unavailable clipboard fallback, selected fallback text and stale-state clearing.
+- Reduced motion and JavaScript-disabled essential navigation/contact links.
+- No unexpected third-party requests or JavaScript page errors during route checks. No contact link was activated and no inquiry was sent.
 
-Full-page artifacts in `test-results/`: `home-desktop.png` (1440 px), `home-mobile.png` (390 px), and `service-mobile.png` (390 px). The homepage screenshots were taken after entrance animations settled. Desktop/mobile review found clear heading wraps, consistent spacing and no visible clipped content. The fixed mobile contact bar appears at the initial viewport position in a full-page screenshot, as expected.
+## Visual review
 
-## Fixed during QA
+Actual rendered screenshots were inspected at 1440, 390 and 320 pixels, plus machinery detail desktop/mobile screenshots. A separate reviewer found the restrained palette, direct Chinese headings, real freight images and ruled lists suitable for a working freight company rather than a generic AI template.
 
-The implementation owner corrected the local server's root-path handling, brand accessible-name mismatch, missing preview/contact landmarks, and invalid native element for tabpanel semantics. The initial copyright-symbol detector false positive was corrected in the tests. The final run includes those fixes.
+Two issues were corrected and re-rendered:
+- The 320px inquiry heading now intentionally breaks after `照著清單，`, keeping `需求` together.
+- Machinery detail's introductory heading now reads `尺寸、包裝、裝卸。 / 運送前一起確認。`, avoiding a split of `裝卸方式`.
 
-Initial deployed-build QA also revealed a reproducible rapid-keyboard race: the deferred same-page anchor focus callback reset focus to main after the next Tab press. The implementation owner made anchor focus synchronous. The test now asserts that the first immediate Tab after skip-link activation reaches the hero CTA. Fifteen additional rapid skip-plus-two-Tab repetitions pass without inserted delays. Full local menu/anchor/history and other coverage passes with the fix. Final deployed-build revalidation is pending.
+The mobile contact bar is 58px and the page reserves bottom/safe-area space. Service options and contact controls remain reachable. The mobile hero crop retains both cargo and truck; more of the real ground/roof is visible than on desktop.
 
-## Limitations
+Evidence in ignored `test-results/` includes `redesign-hero-{1440,390,320}.png`, `redesign-home-{1440,390,320}.png`, `home-desktop.png`, `home-mobile.png`, `service-mobile.png`, `final-preparation-320.png` and `final-detail-heading.png`. Reviewer captures use the `review-` prefix. Full-page screenshot capture places fixed UI at the initial viewport position; separate scrolled checks verified that the contact bar does not make footer content permanently inaccessible.
 
-This is a Chromium/local-build result, not confirmation of GitHub Pages publication. Deployment checks remain pending. Automated axe results are not a formal accessibility certification or a substitute for assistive-technology testing. Responsive widths were exercised, but physical iOS/Android devices were not tested.
+## Business fact check
+
+The live official homepage at https://zonex-transport.com.tw/ returned HTTP 200 through ordinary Node fetch with normal TLS validation. Its public text confirmed the two phone numbers, company address, approved LINE destination, box-wing/liftgate vehicle description, electric pallet truck, industrial materials and nationwide delivery. The original read-only page snapshots remain the source for service-detail prose.
+
+No business hours, metrics, prices, customer reviews, certifications, guaranteed availability or tracking service were introduced. No generated operational photographs were used.
+
+## Scope and limitations
+
+Only `C:\Users\User\zonex-uiux-v2` was edited. At the time of this local review, no commit, push or deployment had been made. The owner subsequently authorized publishing only to the existing independent GitHub Pages demo. No Cloudflare configuration or production DNS change is part of that authorization. The local loopback preview server was left running for review on DESKTOP-95MCASJ.
+
+Automated Chromium and screenshot checks are not a screen-reader audit, physical-phone test or complete accessibility certification. Safari/iOS and live deployment verification were not run. The design is a local preview, not an operating booking or quote system.
+
+
+## Authorized publication follow-up
+
+The owner approved publication after reviewing the local redesign. Pre-publication build, static checks and the complete browser suite are rerun before committing. Deployment uses the existing `Publish design preview` workflow on this repository only. Remote commit, workflow result and actual served assets will be verified before reporting publication complete.

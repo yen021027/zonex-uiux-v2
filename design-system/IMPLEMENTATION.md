@@ -1,21 +1,25 @@
-# Zonex implementation decisions
+# Current implementation direction
 
-UI/UX Pro Max was run locally with: `freight company landing trust --design-system --variance 7 --motion 2 --density 3`. Its verified result is saved in `zonex-transport-concept/MASTER.md`.
+## Owner correction
 
-The first query matched a real-time operations dashboard. That was rejected: this is a freight company marketing site with no live vehicle data. The narrower query matched Hero + Features + CTA, Minimalism, a blue/orange palette, and subtle transitions.
+The owner rejected visually referencing the original website because it looked too AI-generated. The 2026-11-12 local revision is a new visual direction, not a reskin of the original. The official site is used only to verify business facts, contact destinations and the provenance of already-public photographs.
 
-## Product-specific adaptations
+## Current source of truth
 
-- Preserve the existing navy/orange logo. Use navy #142c3a, orange #f28a45, trust blue #235e81, and cool-white #f5f6f8. Use dark text on orange rather than low-contrast white.
-- Use the already-licensed, locally served Noto Sans TC plus platform CJK fallbacks instead of adding Latin-only Outfit/Work Sans requests.
-- Use spacious editorial grids, real operational photography, a service selector, and clear contact/preparation sections. Avoid fake metrics, review badges, moving status dots and claims of live tracking.
-- The detected stack is plain HTML/CSS/JavaScript. No framework was assumed or introduced. An html-tailwind lookup was read only for generic focus/z-index principles; no Tailwind runtime is claimed or needed.
-- Use native details/summary for FAQs, a native select for service preparation, and the WAI-ARIA keyboard tab pattern for service exploration.
-- Retain all seven original public service pages and their factual text. The independent preview does not change original routes, DNS, Cloudflare configuration or source files.
-- All meaningful actions have text labels. No emoji, arrow icons, or LINE ID display. Copying refers only to an empty inquiry template.
-- Reduced motion disables the short hero entrance. No continuous animation or auto-rotating carousel.
-- No form backend. No visitor-entered private data is collected. Copying requires an explicit visitor click and fails to a selectable text fallback.
+Use `design-system/zonex-fieldwork/MASTER.md` with the product-specific adaptations below. The older `zonex-transport-concept/MASTER.md` is historical and must not restore the former blue/orange design.
 
-## Review checklist
+UI/UX Pro Max was run with `freight company minimal trustworthy --design-system --variance 5 --motion 1 --density 5`. The verified match was Minimalism & Swiss Style: useful high-contrast type, an orderly grid, clear navigation and restrained interaction. The preceding `freight editorial industrial minimal` query over-weighted Brutalism and returned an artistic pink direction; that recommendation was rejected as inappropriate for a working freight business.
 
-Use 320, 375, 390, 768, 1024 and 1440px viewports, keyboard navigation, repeated/cancelled menu flows, axe scans, no-JavaScript pages, image integrity, subpath links, CSP, metadata inspection, and deployed 404 verification. See tests/README.md and test output for actual pass/fail results.
+## Product-specific decisions
+
+- Warm paper #f6f4ee, charcoal #242823, restrained rust #a33928, fine rules, square controls and no shadows. The brand logo remains an identity asset, not a palette template.
+- Prominent direct Chinese headings, real unretouched truck/cargo photographs and useful shipping information. No decorative English slogans, floating stamps, pills, gradients, decorative metrics, maps implying an operating network, or status dots suggesting live tracking.
+- Locally hosted Noto Sans TC and system fallbacks. No remote fonts. Plain HTML/CSS/JavaScript, no added framework or runtime.
+- New homepage composition lives in `src/home.cjs`; `scripts/build.cjs` generates nine HTML documents. Shared CSS is rewritten for the homepage, all seven service pages and 404.
+- Service detail prose remains fact-checked against public source content. Decorative source labels are removed; all page layouts use the new typographic system. A machinery subheading was shortened to keep complete Chinese phrases together.
+- Preserve accessible menu, service tabs and inquiry helper behavior. Mobile service choices use a two-column list. Contact has real telephone/LINE destinations but no data entry or submission.
+- All pages remain noindex with official canonical URLs. The initial review was local-only. Subsequent owner approval authorizes publishing this revision solely to the existing independent GitHub Pages demo, never the official Cloudflare site.
+
+## Verification
+
+Run `npm run build`, `npm run check`, then `npm test` against the local preview server. Inspect actual desktop and mobile screenshots, not just DOM checks. See `tests/QA-RESULTS.md` for the current run and limitations.
